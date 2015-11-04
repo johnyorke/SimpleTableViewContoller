@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFCBF25A1BEA96B200AFBAB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCBF2591BEA96B200AFBAB1 /* AppDelegate.swift */; };
+		DFCBF25C1BEA96B200AFBAB1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCBF25B1BEA96B200AFBAB1 /* MasterViewController.swift */; };
+		DFCBF25E1BEA96B200AFBAB1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCBF25D1BEA96B200AFBAB1 /* DetailViewController.swift */; };
+		DFCBF2611BEA96B200AFBAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCBF25F1BEA96B200AFBAB1 /* Main.storyboard */; };
+		DFCBF2631BEA96B200AFBAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCBF2621BEA96B200AFBAB1 /* Assets.xcassets */; };
+		DFCBF2661BEA96B200AFBAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCBF2641BEA96B200AFBAB1 /* LaunchScreen.storyboard */; };
+		DFCBF26E1BEA97DD00AFBAB1 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCBF26D1BEA97DD00AFBAB1 /* SimpleTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFCBF2561BEA96B200AFBAB1 /* KloodUniversityAttendees.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KloodUniversityAttendees.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCBF2591BEA96B200AFBAB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFCBF25B1BEA96B200AFBAB1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		DFCBF25D1BEA96B200AFBAB1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DFCBF2601BEA96B200AFBAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFCBF2621BEA96B200AFBAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFCBF2651BEA96B200AFBAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFCBF2671BEA96B200AFBAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCBF26D1BEA97DD00AFBAB1 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFCBF2531BEA96B200AFBAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFCBF24D1BEA96B200AFBAB1 = {
+			isa = PBXGroup;
+			children = (
+				DFCBF2581BEA96B200AFBAB1 /* KloodUniversityAttendees */,
+				DFCBF2571BEA96B200AFBAB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFCBF2571BEA96B200AFBAB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFCBF2561BEA96B200AFBAB1 /* KloodUniversityAttendees.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFCBF2581BEA96B200AFBAB1 /* KloodUniversityAttendees */ = {
+			isa = PBXGroup;
+			children = (
+				DFCBF2591BEA96B200AFBAB1 /* AppDelegate.swift */,
+				DFCBF25B1BEA96B200AFBAB1 /* MasterViewController.swift */,
+				DFCBF26D1BEA97DD00AFBAB1 /* SimpleTableViewController.swift */,
+				DFCBF25D1BEA96B200AFBAB1 /* DetailViewController.swift */,
+				DFCBF25F1BEA96B200AFBAB1 /* Main.storyboard */,
+				DFCBF2621BEA96B200AFBAB1 /* Assets.xcassets */,
+				DFCBF2641BEA96B200AFBAB1 /* LaunchScreen.storyboard */,
+				DFCBF2671BEA96B200AFBAB1 /* Info.plist */,
+			);
+			path = KloodUniversityAttendees;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFCBF2551BEA96B200AFBAB1 /* KloodUniversityAttendees */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCBF26A1BEA96B200AFBAB1 /* Build configuration list for PBXNativeTarget "KloodUniversityAttendees" */;
+			buildPhases = (
+				DFCBF2521BEA96B200AFBAB1 /* Sources */,
+				DFCBF2531BEA96B200AFBAB1 /* Frameworks */,
+				DFCBF2541BEA96B200AFBAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KloodUniversityAttendees;
+			productName = KloodUniversityAttendees;
+			productReference = DFCBF2561BEA96B200AFBAB1 /* KloodUniversityAttendees.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFCBF24E1BEA96B200AFBAB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "John Yorke";
+				TargetAttributes = {
+					DFCBF2551BEA96B200AFBAB1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DFCBF2511BEA96B200AFBAB1 /* Build configuration list for PBXProject "KloodUniversityAttendees" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFCBF24D1BEA96B200AFBAB1;
+			productRefGroup = DFCBF2571BEA96B200AFBAB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFCBF2551BEA96B200AFBAB1 /* KloodUniversityAttendees */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFCBF2541BEA96B200AFBAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCBF2661BEA96B200AFBAB1 /* LaunchScreen.storyboard in Resources */,
+				DFCBF2631BEA96B200AFBAB1 /* Assets.xcassets in Resources */,
+				DFCBF2611BEA96B200AFBAB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFCBF2521BEA96B200AFBAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCBF25E1BEA96B200AFBAB1 /* DetailViewController.swift in Sources */,
+				DFCBF25C1BEA96B200AFBAB1 /* MasterViewController.swift in Sources */,
+				DFCBF25A1BEA96B200AFBAB1 /* AppDelegate.swift in Sources */,
+				DFCBF26E1BEA97DD00AFBAB1 /* SimpleTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFCBF25F1BEA96B200AFBAB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCBF2601BEA96B200AFBAB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFCBF2641BEA96B200AFBAB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCBF2651BEA96B200AFBAB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFCBF2681BEA96B200AFBAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFCBF2691BEA96B200AFBAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFCBF26B1BEA96B200AFBAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KloodUniversityAttendees/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnyorke.KloodUniversityAttendees;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFCBF26C1BEA96B200AFBAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KloodUniversityAttendees/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnyorke.KloodUniversityAttendees;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFCBF2511BEA96B200AFBAB1 /* Build configuration list for PBXProject "KloodUniversityAttendees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCBF2681BEA96B200AFBAB1 /* Debug */,
+				DFCBF2691BEA96B200AFBAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCBF26A1BEA96B200AFBAB1 /* Build configuration list for PBXNativeTarget "KloodUniversityAttendees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCBF26B1BEA96B200AFBAB1 /* Debug */,
+				DFCBF26C1BEA96B200AFBAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFCBF24E1BEA96B200AFBAB1 /* Project object */;
+}
